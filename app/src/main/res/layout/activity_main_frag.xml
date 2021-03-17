@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <!--apenas pra teste-->
+    <fragment
+
+        android:id="@+id/list_frag"
+        android:layout_width="20dp"
+        class="com.transporte.controle.ListaAcentos"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+
+        tools:layout="@layout/fragment_lista_acentos2"
+
+        />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@id/relative"
+        android:layout_weight="3" >
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/voltar"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+
+        android:onClick="onClick"
+
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        app:elevation="@dimen/buttonSize"
+        app:useCompatPadding="false"
+        app:layout_anchor="@id/list_frag"
+        android:layout_gravity="bottom|end"
+        app:layout_anchorGravity="bottom|end"
+
+        />
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

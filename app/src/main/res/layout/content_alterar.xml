@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AlterarActivity"
+    tools:showIn="@layout/activity_alterar"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/nomeEdit"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elegantTextHeight="true"
+
+        android:text=""
+        android:hint="@string/nome"
+        android:textSize="@dimen/textPrimeiro"
+        android:textColor="@color/colorLegendas"
+
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/sobrnomeEdit"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:hint="@string/sobrnome"
+        android:textSize="@dimen/textPrimeiro"
+        android:textColor="@color/colorLegendas"
+        android:inputType="text"
+
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        />
+    <EditText
+        android:id="@+id/telEdit"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:hint="@string/tel"
+        android:textSize="@dimen/textPrimeiro"
+        android:textColor="@color/colorLegendas"
+        android:inputType="phone"
+
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+        android:id="@+id/idadeEdit"
+            android:onClick="onClick"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:hint="@string/idade"
+        android:textSize="@dimen/textPrimeiro"
+        android:textColor="@color/colorLegendas"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+
+        />
+        <EditText
+        android:id="@+id/valorEdit"
+            android:onClick="onClick"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:hint="@string/valor"
+        android:textSize="@dimen/textPrimeiro"
+        android:textColor="@color/colorLegendas"
+        android:inputType="numberSigned"
+
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+
+        />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/pontoEdit"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:hint="@string/stop"
+        android:textSize="@dimen/textPrimeiro"
+        android:textColor="@color/colorLegendas"
+
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:inputType="text"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/carEdit"
+        android:onClick="onClick"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:hint="@string/acent"
+        android:textSize="@dimen/textPrimeiro"
+        android:textColor="@color/colorLegendas"
+
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+
+        android:inputType="none"
+        android:editable="false"
+        android:focusable="false"
+
+        android:enabled="false"
+
+
+        />
+        <EditText
+            android:id="@+id/poltEdit"
+            android:onClick="onClick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+
+            android:text=""
+            android:hint="@string/car"
+            android:textSize="@dimen/textPrimeiro"
+            android:textColor="@color/colorLegendas"
+
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+
+            android:inputType="none"
+            android:editable="false"
+            android:focusable="false"
+            android:enabled="false"
+
+            />
+    </LinearLayout>
+</LinearLayout>

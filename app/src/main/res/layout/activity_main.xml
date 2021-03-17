@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableRow android:orientation="vertical">
+    <!--
+        <Button
+            android:id="@+id/acentBtn"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@color/colorButtonBack"
+            android:onClick="onClick"
+            android:text="@string/list"
+            android:textColor="@color/colorText"
+
+            />-->
+
+        <Button
+            android:id="@+id/diaUmBtn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+
+            android:background="@color/colorButtonBack"
+            android:onClick="onClick"
+            android:text="@string/dia1"
+            android:textColor="@color/colorText" />
+        <Button
+            android:id="@+id/diaDoisBtn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+
+            android:background="@color/colorButtonBack"
+            android:onClick="onClick"
+            android:text="@string/dia2"
+            android:textColor="@color/colorText"
+            />
+        <Button
+            android:id="@+id/diaTresBtn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fab_margin"
+
+            android:background="@color/colorButtonBack"
+            android:onClick="onClick"
+            android:text="@string/dia3"
+            android:textColor="@color/colorText" />
+
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/relatBtn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+
+            android:text="@string/relat"
+            android:textColor="@color/colorText"
+            android:background="@color/colorButtonBack"
+            android:onClick="onClick"
+            />
+
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/tabelaDados"
+        android:visibility="invisible">
+
+        <TextView
+            android:text="@string/passageiro"
+            android:textSize="@dimen/letraTabela"
+            android:textColor="@color/colorLegendas"
+            />
+        <TextView
+            android:id="@+id/passageiros"
+
+            android:text=""
+            android:textSize="@dimen/letraTabela"
+            android:textColor="@color/colorCelula"
+
+            />
+        <TextView
+            android:text="@string/valor"
+            android:textSize="@dimen/letraTabela"
+            android:textColor="@color/colorLegendas"
+            />
+        <TextView
+            android:id="@+id/TotalRegistrado"
+
+            android:text=""
+            android:textSize="@dimen/letraTabela"
+            android:textColor="@color/colorCelula"
+            />
+        <TextView
+            android:text="@string/relat"
+            android:textSize="@dimen/letraTabela"
+            android:textColor="@color/colorLegendas"
+            />
+        <TextView
+            android:id="@+id/relat"
+
+            android:text=""
+            android:textSize="@dimen/letraTabela"
+            android:textColor="@color/colorCelula"
+            />
+        <TextView
+            android:text="@string/valor"
+            android:textSize="@dimen/letraTabela"
+            android:textColor="@color/colorLegendas"
+            />
+        <TextView
+            android:id="@+id/valor"
+
+            android:text=""
+            android:textSize="@dimen/letraTabela"
+            android:textColor="@color/colorCelula"
+            />
+
+    </TableLayout>
+
+    <TableRow>
+
+        <Switch
+            android:id="@+id/esconderTabelaBtn"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:background="@color/colorButtonBack"
+            android:onClick="onClick"
+            android:pointerIcon="none" />
+
+    </TableRow>
+</TableLayout>

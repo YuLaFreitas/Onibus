@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelatorioActivity">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/relData"
+            android:text="@string/data"
+            android:textSize="30sp"
+            android:textColor="@color/colorText"
+
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/relValor"
+            android:text="@string/valor"
+            android:textSize="30sp"
+            android:textColor="@color/colorText"
+
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/relFoto"
+            android:text="@string/foto"
+            android:textSize="30sp"
+            android:textColor="@color/colorText"
+
+            android:layout_marginLeft="20dp"/>
+
+
+    </TableRow>
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/voltar"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_margin="@dimen/fab_margin"
+
+        android:paddingBottom="@dimen/fab_margin"
+
+        app:layout_anchorGravity="bottom|end"
+
+        app:rippleColor="@color/colorText"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+</TableLayout>

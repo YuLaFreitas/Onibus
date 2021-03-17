@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        tools:context=".DetalhesPassageiros">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="@dimen/larguraEdit"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textPrimeiro" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorLegendas"
+            android:textSize="@dimen/textSecundario" />
+
+        <TextView
+            android:id="@+id/sobrnome"
+            android:layout_width="@dimen/larguraEdit"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:autoSizeMaxTextSize="@dimen/textPrimeiro"
+            android:text=""
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textPrimeiro" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sobrnome"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorLegendas"
+            android:textSize="@dimen/textSecundario" />
+
+        <TextView
+            android:id="@+id/telefone"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:autoSizeMinTextSize="@dimen/textPrimeiro"
+            android:ems="10"
+            android:maxEms="11"
+            android:text="75981230934"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textPrimeiro" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tel"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorLegendas"
+            android:textSize="@dimen/textSecundario" />
+
+
+        <TextView
+            android:id="@+id/idade"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:maxEms="3"
+            android:text="990"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textPrimeiro" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idade"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorLegendas"
+            android:textSize="@dimen/textSecundario" />
+
+        <TextView
+            android:id="@+id/ponto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textPrimeiro" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorLegendas"
+            android:textSize="@dimen/textSecundario" />
+
+        <TextView
+            android:id="@+id/valor"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:ems="7"
+            android:text="100,00"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textPrimeiro" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valor"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="@color/colorLegendas"
+            android:textSize="@dimen/textSecundario" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            android:paddingHorizontal="10dp"
+            android:id="@+id/relative">
+
+            <TextView
+                android:id="@+id/carro"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="999"
+                android:textAppearance="?android:attr/textAllCaps"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/textPrimeiro" />
+
+            <TextView
+                android:id="@+id/textCarro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vaga"
+                android:textAppearance="?android:attr/textAllCaps"
+                android:textColor="@color/colorLegendas"
+                android:textSize="@dimen/textSecundario"
+                android:layout_below="@id/carro"
+                android:layout_marginLeft="100dp"
+                />
+
+            <TextView
+                android:id="@+id/poltrona"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/textCarro"
+                android:text="999"
+                android:textAppearance="?android:attr/textAllCaps"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/textPrimeiro" />
+
+            <TextView
+                android:id="@+id/poltronaTx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/poltrona"
+                android:text="@string/car"
+                android:textAppearance="?android:attr/textAllCaps"
+                android:textColor="@color/colorLegendas"
+                android:textSize="@dimen/textSecundario" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/alteracoesBtn"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/relative"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorButtonBack"
+            android:text="@string/alter"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/buttonSize"
+
+            />
+
+    </LinearLayout>
+</ScrollView>

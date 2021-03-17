@@ -1,0 +1,44 @@
+<resources>
+    <string name="acent">ACENTOS NO VEÍCULO</string>
+    <string name="car">Veiculo</string>
+    <string name="vaga">ACENTO</string>
+    <string name="list">RELAÇÃO DE PASSAGEIROS</string>
+    <string name="relat">RELATÓRIO</string>
+    <string name="nome"><i>NOME</i></string>
+    <string name="sobrnome">SOBRENOME</string>
+    <string name="tel"><i>TELEFONE</i></string>
+    <string name="idade"><i>ANOS</i></string>
+    <string name="valor"><i>CONTRIBUIU</i></string>
+    <string name="drop"><i>CANCELAR</i></string>
+    <string name="alter"><i><b>ALTERAR</b></i></string>
+    <string name="save"><i>SALVAR</i></string><!--altera os dados-->
+    <string name="delet"><i>APAGAR</i></string><!--deixa dados em branco-->
+    <string name="passageiro"><i>PASSAGEIRO</i></string>
+
+    <string name="stop"><i>LOCAL DE ESPERA</i></string>
+    <array name="pontosArray">
+        <item>SALAO</item>
+        <item>ESCOLA</item>
+        <item>CESTAO</item>
+        <item>CRUZEIRO</item>
+        <item>JUAZEIRO</item>
+        <item>BENTO SIMOES</item>
+        <item>PORTEIRA</item>
+    </array>
+    <string name="data">DATA</string>
+    <string name="foto">FOTO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name"><b>ARRANJO DE TRANSPORTE</b></string>
+    <string name="title_activity_relatorio">RELATÓRIO</string>
+    <string name="title_activity_detalhes_passageiros">DADOS DOS PASSAGEIROS</string>
+    <string name="title_activity_relacao_passageiros">LISTA DE PASSAGEIROS</string>
+    <string name="title_activity_alterar">ALTERAR DADOS</string>
+    <string name="action_settings">configurações</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Clik para encontrar \n um acento</string>
+    <string name="dia1">PRIMEIRO DIA</string>
+    <string name="dia2">Segundo dia</string>
+    <string name="dia3">Terceiro dia</string>
+</resources>
